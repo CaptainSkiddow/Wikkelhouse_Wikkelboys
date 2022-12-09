@@ -1,0 +1,14 @@
+.header_container {
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.navbar li {
+    margin: 1%;
+    list-style: none;
+}
