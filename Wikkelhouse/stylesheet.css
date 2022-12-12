@@ -17,12 +17,6 @@
   padding: 0 10%;
 }
 
-.left_text1 {
-}
-
-.right_text1 {
-}
-
 .container2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
@@ -31,4 +25,24 @@
 }
 
 .left_text2 {
+  max-width: 40%;
+  font-size: 24px;
+  color: #808080;
+}
+
+.left_text1 h1 {
+  font-size: 62px;
+  color: black;
+}
+
+.right_text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 62px;
+  margin-bottom: 0%;
+}
+
+.right_text1 img {
+  width: 90%;
 }
