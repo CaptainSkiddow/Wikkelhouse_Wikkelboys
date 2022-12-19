@@ -82,7 +82,7 @@ table {
 }
 
 .onboard_img_container > img {
-    position: absolute;
+    position: relative;
     max-width: 100%;
     height: auto;
     top: 200px;
@@ -91,4 +91,5 @@ table {
 
 #whbackgr {
     top: 360px;
+    position: sticky;
 }
