@@ -265,6 +265,7 @@ a:visited {
 
 .choise_container {
     display: flex;
+    font-weight: bold;
 }
 
 
