@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Sidonia;
+    src: url("Sidonia DemiBold Regular.woff") format("woff"),
+      url("Wikkelhouse/Sidonia DemiBold Regular.woff2") format("woff2");
+  }
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/* Styling navbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #a8aaaa;
+  }
+  
+  .navbar_whole {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 2px 4px white;
+    height: 75px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .navbar li {
+    margin: 1% 3%;
+    list-style: none;
+  }
+  
+  .navbar a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+
+/* styling body */
+
+.recap_header_container {
+    margin: 6% 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#recap_header_color {
+    color: #999;
+}
+
+.recap_header_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 10%;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 8px;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .recap_header_button img {
+    max-height: 25px;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  .button_text_black {
+    font-family: Sidonia;
+    color: black;
+    font-size: 28px;
+    margin-left: 20px;
+  }
+
+.recap_information_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0% 8%;
+  }
+
+  #recap_image {
+    max-width: 50%;
+    margin: -10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .recap_information_container img {
+    max-width: 100%;
+  }
+
+.recap_information_container h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.recap_information_container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#recap_info_right h1, #recap_info_right p{
+    min-width: 25%;
+    text-align: right;
+}
+
+.recap_info_left {
+    min-width: 25%;
+}
+
+.contact_us_container {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact_us_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_button_container {
+    font-family: Sidonia;
+    font-size: 32px;
+    height: 64px;
+    width: 436px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.contact_us_text {
+    max-width: 25%;
+    text-align: center;
+}
+
+
+.contact_button_container a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_button_container a:link #contact_button {
+    text-decoration: none;
+}
