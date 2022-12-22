@@ -287,6 +287,58 @@ a:visited {
 
 
 
+/* Navbar Styling */
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #a8aaaa;
+  }
+  
+  .navbar_whole {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 2px 4px white;
+    height: 75px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .navbar li {
+    margin: 1% 3%;
+    list-style: none;
+  }
+  
+  .navbar a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar a:visited {
+    text-decoration: none;
+    color: black;
+  }
 
 
 /* Dit is een test */
@@ -299,7 +351,7 @@ a:visited {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: space-evenly;
-    margin: 4% 0%;
+    margin: 4% 3%;
 }
 
 .onboarding_left {
@@ -309,6 +361,7 @@ a:visited {
     align-items: flex-start;
     width: 45%;
     padding: 2%;
+    border-radius: 8px;
 }
 
 #wh_work_img {
@@ -362,6 +415,7 @@ a:visited {
 .onboarding_right_element {
     padding: 2%;
     width: 100%;
+    border-radius: 8px;
 }
 
 .onboarding_right h1 {
@@ -390,9 +444,9 @@ a:visited {
 }
 
 .onboarding_container a:hover {
-    background-color: #999;
+    background-color: #3c3c3c;
     color: white;
-    transition-duration: 1s;
+    transition-duration: 500ms;
     transition-timing-function: ease-out;
 }
 
@@ -400,10 +454,14 @@ a:visited {
     background-color: black;
     color: white;
     border: 2px solid #000;
-    transition-duration: 1s;
+    transition-duration: 500ms;
 }
 
 .onboarding_container a:hover .start_quiz_button_container {
     background-color: white;
     color: black;
+}
+
+.onboarding_container a:hover #element_text {
+    color: #EEEEEE;
 }
