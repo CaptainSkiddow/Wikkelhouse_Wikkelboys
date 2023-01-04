@@ -1,0 +1,407 @@
+@font-face {
+  font-family: Sidonia;
+  src: url("Sidonia DemiBold Regular.woff") format("woff"),
+    url("Wikkelhouse/Sidonia DemiBold Regular.woff2") format("woff2");
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*^^^^^^ CSS RESET ^^^^^^*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #a8aaaa;
+}
+
+.navbar_whole {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 2px 4px white;
+  height: 75px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar li {
+  margin: 1% 3%;
+  list-style: none;
+}
+
+.navbar a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#configurator {
+  margin-top: 110px;
+}
+
+#top_buttons {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.button_text_white {
+  font-family: Sidonia;
+  color: white;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.button_text_black {
+  font-family: Sidonia;
+  color: black;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.configure_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 10%;
+  background-color: black;
+  border: solid black;
+  border-width: 4px;
+  border-radius: 8px;
+  height: 45px;
+  cursor: pointer;
+  margin-left: 500px;
+}
+
+.configure_button img {
+  max-width: 100%;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.contact_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 22%;
+  border: solid black;
+  border-width: 3px;
+  border-radius: 8px;
+  height: 45px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.contact_button_img {
+  max-width: 100%;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.separator_line {
+  max-width: 100%;
+  height: 80px;
+  width: 3px;
+}
+
+.blueprint {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.segment img {
+  width: 100%;
+  height: 100%;
+}
+
+#ui_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.ui {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  height: 70px;
+  border: solid black;
+  border-radius: 15px;
+  border-width: 3.5px;
+  overflow: hidden;
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+
+#cursor_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.pointer_button {
+  width: 35px;
+  height: 35px;
+  background-color: #ff9900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.drag_button {
+  width: 35px;
+  height: 35px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pointer_button img {
+  max-width: 100%;
+  width: 60%;
+}
+
+.drag_button img {
+  max-width: 100%;
+  width: 65%;
+}
+
+.segment_button {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.segment_icon {
+  max-width: 100%;
+}
+
+.arrow_up_icon {
+  scale: 60%;
+  max-width: 100%;
+}
+
+.interior_button {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: 50px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.interior_icon {
+  max-width: 100%;
+}
+
+.ui_undo_redo_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ui_undo_redo_buttons img {
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ui_zoom_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ui_zoom_buttons img {
+  max-width: 100%;
+  width: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ui_two_d_button img {
+  max-width: 100%;
+  width: 30px;
+  cursor: pointer;
+}
+
+.ui_share_button img {
+  max-width: 100%;
+  width: 25px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.copy_code_icon {
+  max-width: 100%;
+  width: 50%;
+}
