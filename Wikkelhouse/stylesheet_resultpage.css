@@ -259,6 +259,13 @@ table {
   margin-left: 20px;
 }
 
+.configure_button_text {
+  font-family: Sidonia;
+  color: white;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
 .button_text_black {
   font-family: Sidonia;
   color: black;
@@ -456,6 +463,16 @@ table {
   cursor: pointer;
   margin-left: 350px;
   margin-right: 140px;
+}
+
+.other_wikkelhouses_configure_button a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.other_wikkelhouses_configure_button a:visited {
+  text-decoration: none;
+  color: white;
 }
 
 .other_wikkelhouses_configure_button img {
