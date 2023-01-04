@@ -75,7 +75,12 @@ table {
 }
 
 .navbar a:link {
-    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:visited {
+    color: black;
 }
 
 .container1 {

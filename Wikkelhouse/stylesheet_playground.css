@@ -1,0 +1,290 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ^^^^^^CSS RESET^^^^^^ */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #a8aaaa;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 10%;
+}
+
+.title {
+  font-size: 50px;
+  color: black;
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.left_text2 {
+  max-width: 100%;
+}
+
+.right_images {
+  width: 7%;
+}
+
+.number2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cards_and_previews {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+}
+
+.cardsection {
+  padding: 0% 10%;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 10%;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card_original {
+  width: 130px;
+  height: 140px;
+  border: solid black;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_original img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card_bear {
+  width: 130px;
+  height: 140px;
+  border: solid black;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_bear img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  max-height: 91px;
+}
+
+.card_family {
+  width: 130px;
+  height: 140px;
+  border: solid black;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_family img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card_work {
+  width: 130px;
+  height: 140px;
+  border: solid black;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_work img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-height: 71px;
+}
+
+.card_twin {
+  width: 130px;
+  height: 140px;
+  border: solid black;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_twin img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-height: 100px;
+}
+
+.card_title {
+  font-weight: bold;
+}
+
+.preview {
+  width: 42%;
+}
+
+.preview img {
+  max-width: 100%;
+}
