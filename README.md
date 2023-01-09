@@ -6,7 +6,7 @@ Webbased configurator for Wikkelhouse
 
 - Developer : Dit is waar onze test pagina's ook in zitten, deze branch gebruikte we om dingen uit te proberen.
 
-- Opdrachtgever : Dit is waar alle files in komen voor onze opdrachtgever. 
+- Opdrachtgever : Dit is waar alle files in staan voor onze opdrachtgever. 
 
 # Van wie zijn de files?
 Elke HTML heeft een naam boven aan de pagina, op deze manier is te zien wie er mee bezig is geweest. 
