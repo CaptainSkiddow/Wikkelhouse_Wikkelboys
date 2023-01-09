@@ -9,5 +9,5 @@ Webbased configurator for Wikkelhouse
 - Opdrachtgever : Dit is waar alle files in staan voor onze opdrachtgever. 
 
 # Van wie zijn de files?
-Elke HTML heeft een naam boven aan de pagina, op deze manier is te zien wie er mee bezig is geweest. 
+Elke HTML file heeft een naam boven aan de pagina, op deze manier is te zien wie er mee bezig is geweest. 
 Ook zijn de CSS files, die aan de HTML file zijn gelinkt, gemaakt door de persoon die aangetoont is in de HTML file.
