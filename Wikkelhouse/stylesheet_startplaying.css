@@ -144,11 +144,11 @@ body {
   font-weight: bold;
 }
 
-.left_text3 {
+.main_header {
   max-width: 100%;
 }
 
-.right_images2 {
+.page_numbering {
   width: 7%;
 }
 
@@ -157,7 +157,7 @@ body {
   max-height: 100%;
 }
 
-.container4 {
+.all_segments {
   display: flex;
   flex-direction: row;
   justify-content: center;
