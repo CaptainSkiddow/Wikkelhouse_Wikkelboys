@@ -11,3 +11,19 @@ Webbased configurator for Wikkelhouse
 # Van wie zijn de files?
 Elke HTML file heeft een naam boven aan de pagina, op deze manier is te zien wie er mee bezig is geweest. 
 Ook zijn de CSS files, die aan de HTML file zijn gelinkt, gemaakt door de persoon die aangetoont is in de HTML file.
+
+# Corné 
+- configure_2d.html
+- playground.html
+- result_page.html
+- start_playing.html
+
+# Rens
+- index.html
+- onboaard1.html
+- Questionaire_2.html
+- Questionaire_3.html
+- Questionaire_4.html
+- Questionaire_onboarding.html
+- Questionaire.html 
+- recap.html
